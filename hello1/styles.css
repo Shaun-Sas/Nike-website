@@ -106,8 +106,59 @@ nav > a:hover{
 footer{
     float:left;
     margin-top: 10px;
-    background-color: #b2b2b2;
+    background-color: #000;
     width:100%;
-    height: 100vh;
+    height: 20vh;
+    color:azure;
 
+}
+
+.headings{
+    padding-top: 10px;
+    float: inline-start;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+
+}
+
+.parrent1{
+    display: float;
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #F5F5F5;
+
+}
+
+.child0{
+    float:left;
+    height:80vh;
+    width:50.5%;
+    background-color: aquamarine;
+}
+
+.class1{
+    background-image: url(watch.webp);
+    margin: 2vh;
+    height:78vh;
+    background-size: fill;
+    object-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.child1{
+    float:left;
+    height:80vh;
+    width:49%;
+    background-color: #F5F5F5;
+}
+.class2{
+    background-image: url(fashion-2013-07-nike-hyperfeel-shoe-main.webp);
+    margin: 2vh;
+    height:78vh;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
