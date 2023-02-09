@@ -1,0 +1,113 @@
+
+*{
+    box-sizing:border-box;
+    margin: 0px;
+    padding:0px;
+}
+
+header{
+    height:10vh;
+    width:100%;
+    background: #b2b2b2; 
+    border-radius: 3px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+header > nav{
+    display:relative;
+    padding:10px;
+    text-decoration: none;
+    overflow: -moz-hidden-unscrollable;
+    
+    
+
+}
+
+nav > a {
+    display:inline-block;
+    margin-left: 50px;
+    position:relative;
+    color:#d5f4e6;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    margin-bottom: 20px;
+
+}
+
+nav > a:hover{
+    color: aliceblue;
+
+}
+
+.but_1{
+    background-color: #b2b2b2;
+     border: none;
+}
+
+.block_a{
+    height: 500px;
+    width: 50%;
+    margin:auto 10;
+    background-image: url(JORDAN-1-YING-YANG-1.webp);
+    float: left;
+    z-index :-1;
+    object-fit: scale-down;
+}
+
+.block_b{
+    height: 500px;
+    width: 48%;
+    background-color:  #d5f4e6;
+    margin:0px 10px 0px 0px;
+    float: left;
+    float:right
+}
+.start{
+    display :float;
+    margin:5px;
+}
+
+.sblock_a{
+    height: 500px;
+    width:100%
+}
+
+
+.nike_logo{
+    position:relative;
+    
+    display:inline-block;
+    height: 90px;
+    
+    
+}
+
+.block_b_header{
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    margin-top: 150px;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+}
+    
+.block_b_type{
+    margin: 10px 15px 15px 15px;
+    text-align: center;
+}
+
+footer{
+    float:left;
+    margin-top: 10px;
+    background-color: #b2b2b2;
+    width:100%;
+    height: 100vh;
+
+}
